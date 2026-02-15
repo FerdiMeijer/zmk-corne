@@ -54,9 +54,44 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <1 15 29>;
+        bracket_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <15 16>;
+        };
+
+        bracket_left {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <16 17>;
+        };
+
+        parenthisis_left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <23 24>;
+        };
+
+        parenthisis_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <24 25>;
+        };
+
+        less_then_left {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <37 38>;
+        };
+
+        less_then_right {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <38 39>;
+        };
+
+        brace_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <29 30>;
+        };
+
+        brace_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <30 31>;
         };
     };
 
@@ -100,7 +135,7 @@
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "Media";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
