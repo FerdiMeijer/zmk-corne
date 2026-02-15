@@ -59,7 +59,7 @@
             key-positions = <15 16>;
         };
 
-        bracket_left {
+        bracket_right {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <16 17>;
         };
