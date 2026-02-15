@@ -137,10 +137,10 @@
         layer_3 {
             display-name = "Media";
             bindings = <
-&trans  &trans      &trans     &trans       &trans     &trans                                  &mmv MOVE_UP                     &trans      &trans     &trans       &trans      &trans          &trans
-&trans          &trans      &trans  &trans    &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans    &trans   &trans  &trans
-&bootloader          &sys_reset  &trans     &trans  &trans     &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &trans  &trans  &trans   &trans
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&trans       &trans      &trans          &trans  &trans  &trans                                &mmv MOVE_UP                     &trans      &trans        &trans        &trans  &kp C_PREV  &trans
+&none        &bt BT_PRV  &bt BT_NXT      &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans      &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans      &kp C_PLAY
+&bootloader  &sys_reset  &bt BT_CLR_ALL  &trans  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp C_NEXT  &kp C_PAUSE   &trans        &trans  &trans      &trans
+                                         &trans  &trans  &trans                                                                 &trans      &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -149,10 +149,10 @@
         layer_4 {
             display-name = "???";
             bindings = <
-&trans  &trans      &trans     &trans       &trans     &trans                                  &mmv MOVE_UP                     &trans      &trans     &trans       &trans      &trans          &trans
-&trans          &trans      &trans  &trans    &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans    &trans   &trans  &trans
-&trans          &trans  &trans     &trans  &trans     &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &trans  &trans  &trans   &trans
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                                                 &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
