@@ -42,7 +42,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-option$$
+  - NUMBER
+  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: KEYBOARD}
+  - SYMBOL
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Fn+Nav}
   - {t: '$$mdi:keyboard-space$$', h: Num+Symb}
@@ -51,18 +56,18 @@ layers:
   - Media+Bt
   Num+Symb:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - '!'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -77,63 +82,14 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
-  - {t: '''', s: '"'}
-  - {t: Sft+', s: Sft+"}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '9', s: (}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - RGB EFF
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  Fn+Nav:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F1
-  - F2
-  - F3
-  - F4
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - PRINTSCREEN
-  - '&'
-  - '*'
-  - (
-  - PgUp
-  - HOME
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F5
-  - F6
-  - F7
-  - F8
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -244,6 +200,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  KEYBOARD:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR ALL
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - HOME
+  - PG UP
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
+  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - RGB EFR
+  - RGB SPI
+  - RGB BRI
+  - RGB BRD
+  - END
+  - PG DN
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: INS, type: held}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [15, 16]
