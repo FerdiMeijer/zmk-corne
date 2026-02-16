@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-option$$
+  - Media+Bt
   - Z
   - X
   - C
@@ -43,15 +43,15 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-tab$$
-  - Media+Bt
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: Fn+Nav}
   - {t: '$$mdi:keyboard-space$$', h: Num+Symb}
   - RIGHT GUI
   - {t: '$$mdi:keyboard-space$$', h: Fn+Nav}
   - Media+Bt
   Num+Symb:
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
+  - '!'
   - '@'
   - '#'
   - $
@@ -176,7 +176,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PLAY
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:progress-download$$', type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
