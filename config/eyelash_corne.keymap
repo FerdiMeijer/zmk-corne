@@ -125,10 +125,10 @@
         raise_layer {
             display-name = "Fn+Nav";
             bindings = <
-&trans  &none  &kp F1  &kp F2   &kp F3   &kp F4                             &mmv MOVE_UP                     &kp PRINTSCREEN  &kp AMPS  &kp ASTRK     &kp LPAR   &kp PAGE_UP  &kp HOME
-&trans  &none  &kp F5  &kp F6   &kp F7   &kp F8             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW   &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none        &trans
-&trans  &none  &kp F9  &kp F10  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &kp PAGE_DOWN    &none     &none         &none      &none        &kp END
-                       &trans   &trans   &trans                                                              &trans           &trans    &trans
+&trans  &none  &kp F1  &kp F2   &kp F3   &kp F4                             &mmv MOVE_UP                     &kp PRINTSCREEN  &kp AMPS        &kp ASTRK  &kp LPAR      &kp PAGE_UP  &kp HOME
+&trans  &none  &kp F5  &kp F6   &kp F7   &kp F8             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT    &kp PAGE_UP
+&trans  &none  &kp F9  &kp F10  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &kp PAGE_DOWN    &none           &none      &none         &none        &kp END
+                       &trans   &trans   &trans                                                              &trans           &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
